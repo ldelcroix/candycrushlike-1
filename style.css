@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#grille canvas {
+	width:32px;
+	height:32px;
+	padding:0;
+	margin:0;
+	display:inline-block;
+	float:left;
+	border:1px dotted black;
+	/*margin-right:-1px;
+	margin-bottom:-1px;*/
+}
+
+	#grille canvas.bios {		
+		background:url("./graphics/interface/icons/32x32/bios.png") no-repeat center center;
+	}
+	
+	#grille canvas.cooler {		
+		background:url("./graphics/interface/icons/32x32/cooler.png") no-repeat center center;
+	}
+	
+	#grille canvas.ddr_memory {		
+		background:url("./graphics/interface/icons/32x32/ddr_memory.png") no-repeat center center;
+	}
+	
+	#grille canvas.motherboard {		
+		background:url("./graphics/interface/icons/32x32/motherboard.png") no-repeat center center;
+	}
+	
+	#grille canvas.network_adapter {		
+		background:url("./graphics/interface/icons/32x32/network_adapter.png") no-repeat center center;
+	}
+	
+	#grille canvas.pci {		
+		background:url("./graphics/interface/icons/32x32/pci.png") no-repeat center center;
+	}
+	
+	#grille canvas.processor {		
+		background:url("./graphics/interface/icons/32x32/processor.png") no-repeat center center;
+	}
+	
+	
+
+	#grille canvas.flag_blue {		
+		background:url("./graphics/interface/icons/32x32/flag_blue.png") no-repeat center center;
+	}
+	
+	#grille canvas.flag_green {		
+		background:url("./graphics/interface/icons/32x32/flag_green.png") no-repeat center center;
+	}
+	
+	#grille canvas.flag_orange {		
+		background:url("./graphics/interface/icons/32x32/flag_orange.png") no-repeat center center;
+	}
+	
+	#grille canvas.flag_pink {		
+		background:url("./graphics/interface/icons/32x32/flag_pink.png") no-repeat center center;
+	}
+	
+	#grille canvas.flag_purple {		
+		background:url("./graphics/interface/icons/32x32/flag_purple.png") no-repeat center center;
+	}
+	
+	#grille canvas.flag_red {		
+		background:url("./graphics/interface/icons/32x32/flag_red.png") no-repeat center center;
+	}
+	
+	#grille canvas.flag_finish {		
+		background:url("./graphics/interface/icons/32x32/flag_finish.png") no-repeat center center;
+	}
+	
+	
+	
+	#grille canvas.selected {		
+		border:1px solid blue;
+	}
+	
+	
+	
+	#grille canvas.green {
+		background-color:green;
+	}
+	
+	#grille canvas.red {
+		background-color:red;
+	}
